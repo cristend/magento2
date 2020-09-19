@@ -1,5 +1,5 @@
 # Hello world!
-### Magento2 excercise 1.
+### Magento2 exercise 1.
 ---
 
 
