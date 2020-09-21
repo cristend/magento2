@@ -10,7 +10,7 @@ class InstallSchema Implements InstallSchemaInterface  {
 		$installer = $setup;
 		$installer->startSetup();
 		$table = $installer->getConnection()->newTable(
-			$installer->getTable('controller_faq')
+			$installer->getTable('FAQ')
 		)-> addColumn(
 			'id',
 			\Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
